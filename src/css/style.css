@@ -1,27 +1,40 @@
 .Main  {
-    margin-top: 1rem;
-}
-.app .count {
-    margin-bottom: 2rem;
-    text-align: right;
-    display: contents;
-    margin-left: 10rem;
-}
-.app .count h3 {
-    line-height: 8.6rem;
-    margin-right: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
-.app .buttons button {
-    width: 10rem;
-    height: 10rem;
+.Main .birdOne .Image1 {
+    height: 25rem;
+    width: 25rem;
+}
 
+.Main .birdTwo .Image2 {
+    height:25rem;
+    width: 25rem;
+}
+
+.Main .space {
+    margin: 5rem;
+}
+
+
+.Main .birdOne .Buttons1 button {
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
     border: none;
-    margin: 0 2rem;
-    font-size: 5em;
+    margin: 0 5px;
+    font-size: 1em;
     cursor: pointer;
 }
-.app .buttons button:hover{
-    font-size: 5;
+
+.Main .birdTwo .Butttons2 button {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: none;
+    margin: 0 5px;
+    font-size: 1em;
+    cursor: pointer;
 }

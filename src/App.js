@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Button from './components/Button'
 import './css/style.css'
+import BirdOne from "./birds/HouseSparrow.jpg"
+import BirdTwo from "./birds/AmericanRobin.jpg"
 export default class App extends Component {
 
   constructor() {
@@ -51,14 +53,14 @@ export default class App extends Component {
       BirdTwoCount: 0
     })
   }
- 
+
 
 
   render() {
     return (
       <div class="Main">
         <div class="birdOne">
-          <div class="Image1"></div>
+          <img src={BirdOne} alt="House Sparrow" class="Image1" />
           <div class="count1">
             <h3>Count: {this.state.BirdOnecount}</h3>
           </div>
@@ -68,11 +70,11 @@ export default class App extends Component {
             <Button title={"+"} action={this.incrementCountOne} />
           </div>
         </div>
-        
+
         <div class="space"></div>
 
         <div class="birdTwo">
-          <div class="Image2"></div>
+          <img src={BirdTwo} alt="American Robin" class="Image2" />
           <div class="count2">
             <h3>Count: {this.state.BirdTwoCount}</h3>
           </div>
