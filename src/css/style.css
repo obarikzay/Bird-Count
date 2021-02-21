@@ -1,0 +1,27 @@
+.Main  {
+    margin-top: 1rem;
+}
+.app .count {
+    margin-bottom: 2rem;
+    text-align: right;
+    display: contents;
+    margin-left: 10rem;
+}
+.app .count h3 {
+    line-height: 8.6rem;
+    margin-right: 1rem;
+}
+
+.app .buttons button {
+    width: 10rem;
+    height: 10rem;
+
+    border-radius: 50%;
+    border: none;
+    margin: 0 2rem;
+    font-size: 5em;
+    cursor: pointer;
+}
+.app .buttons button:hover{
+    font-size: 5;
+}
